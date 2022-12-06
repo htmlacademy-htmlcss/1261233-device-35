@@ -17,9 +17,11 @@
       <nav class="navigation">
         <ul class="navigation-list navigation-login">
           <li class="navigation-item">
-            <label for="search-field">Поиск по сайту</label>
-            <input class="field" type="text" placeholder="Поиск по сайту" name="search-field" id="search-field">
-            <button class="button search-button">Найти</button>
+            <form class="navigation-form" method="get">
+              <label for="search-field">Поиск по сайту</label>
+              <input class="field" type="search" placeholder="Поиск по сайту" name="search-field" id="search-field">
+              <button class="button search-button">Найти</button>
+            </form>
           </li>
           <li class="navigation-item">
             <a class="navigation-link" href="#">Войти</a>
@@ -33,12 +35,10 @@
             <a class="navigation-link" href="#">Корзина</a>
           </li>
         </ul>
-        <ul class="navigation-list navigation-catalog">
+        <ul class="navigation-list navigation-advantages">
           <li class="navigation-item">
             <a class="navigation-link" href="#">Каталог товаров</a>
           </li>
-        </ul>
-        <ul class="navigation-list navigation-advantages">
           <li class="navigation-item">
             <a class="navigation-link" href="#">Доставка</a>
           </li>
@@ -56,7 +56,7 @@
       <h1 class="visually-hidden">Интернет-магазин "Девайс"</h1>
       <section class="slider">
         <div class="slider-gallery">
-          <img class="slider-image" src="/images" alt="Примеры товаров.">
+          <img class="slider-image" src="/images" alt="Изображение квадрокоптера.">
           <button class="slider-button slider-prev">
             <span class="visually-hidden">Предыдущее изображение</span>
           </button>
@@ -199,8 +199,8 @@
         <section class="footer-contacts">
           <h2 class="visually-hidden">Адрес</h2>
           <img class="logo" src="/images" alt="Логотип интернет-магазина Девайс.">
-          <address class="footer-contacts-address">
-            <p class="footer-contacts-address-text">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
+          <address class="footer-contacts-address-text">
+            Санкт-Петербург, набережная реки Карповки, 5, литера П.
           </address>
         </section>
 
