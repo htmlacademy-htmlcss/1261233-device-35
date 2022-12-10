@@ -126,8 +126,8 @@ body {
   flex-grow: 1;
 }
 
-.page-container {
-  width: 1040px;
+.slider-container {
+  width: 1160px;
   margin: 0 auto;
 }
 
@@ -171,6 +171,11 @@ body {
 
 /* PRODUCT */
 
+.product-container {
+  width: 1160px;
+  margin: 0 auto;
+}
+
 .product-list {
   margin: 0;
   padding: 0;
@@ -193,6 +198,11 @@ body {
 
 .advantages {
   background-color: #f0f0f0;
+}
+
+.advantages-container {
+  width: 1160px;
+  margin: 0 auto;
 }
 
 .advantages-list {
@@ -220,6 +230,11 @@ body {
   background-color: #f0f0f0;
 }
 
+.delivery-container {
+  width: 1160px;
+  margin: 0 auto;
+}
+
 .delivery-text {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
@@ -232,6 +247,11 @@ body {
 }
 
 /* ABOUT */
+
+.columns {
+  width: 1160px;
+  margin: 0 auto;
+}
 
 .about {
   width: 520px;
@@ -297,6 +317,11 @@ body {
   background-color: #f0f0f0;
 }
 
+.subscribe-container {
+  width: 1160px;
+  margin: 0 auto;
+}
+
 .subscribe-title {
   width: 348px;
   font-family: 'Raleway', sans-serif;;
@@ -321,7 +346,13 @@ body {
 /* FOOTER */
 
 .page-footer {
+  /* width: 1440px; */
   background-color: #444444;
+}
+
+.footer-container {
+  width: 1160px;
+  margin: 0 auto;
 }
 
 .footer-contacts-address-text {
@@ -342,7 +373,7 @@ body {
   color: #ffffff;
 }
 
-.footer-contacts-address {
+.footer-contacts-address-phone {
   font-style: normal;
   font-size: 16px;
   line-height: 20px;
@@ -353,12 +384,33 @@ body {
 /* CATALOG HTML */
 /* MAIN INNER */
 
+.main-inner {
+  width: 100%;
+}
+
+.inner-container {
+  width: 1079px;
+  margin: 0 auto;
+}
+
+.inner-header {
+  display: flex;
+  flex-direction: column;
+}
+
 .inner-header-title {
   font-family: 'Raleway' sans-serif;
   font-weight: 800;
   font-size: 50px;
   line-height: 50px;
   color: #000000;
+}
+
+.breadcrumbs {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
 .breadcrumbs-link {
@@ -369,6 +421,21 @@ body {
 }
 
 /* CATALOG PRODUCTS */
+
+.catalog-products {
+
+}
+
+.catalog-products-container {
+  display: flex;
+  width: 1160px;
+  margin: 0 auto;
+}
+
+.catalog-filter-container {
+  background-color: #f0f0f0;
+  width: 320px;
+}
 
 .catalog-products-title {
   font-family: 'Raleway', sans-serif;
@@ -387,12 +454,23 @@ body {
   color: #000000;
 }
 
+.catalog-filter-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
 .control {
   font-size: 16px;
   line-height: 20px;
 }
 
 /* SORT */
+
+.sort-products {
+  background-color: #f0f0f0;
+  width: 840px;
+}
 
 .sort-title {
   font-family: 'Raleway', sans-serif;
@@ -405,6 +483,10 @@ body {
 }
 
 /* PRODUCTS CARDS */
+
+.product-container {
+  width: 840px;
+}
 
 .product-list {
   background-color: #ffffff;
@@ -428,7 +510,12 @@ body {
 /* PAGINATION */
 
 .pagination {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
   background-color: #ebebeb;
+  width: 760px;
 }
 
 .pagination-link {
