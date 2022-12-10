@@ -55,6 +55,8 @@ body {
 
 .page-header {
   background-color: #ffe17f;
+  width: 1160px;
+  margin: 0 auto;
   color: #000000;
   background-image: url('../images/digits_bg.png');
   background-repeat: no-repeat;
@@ -124,7 +126,20 @@ body {
   flex-grow: 1;
 }
 
+.page-container {
+  width: 1040px;
+  margin: 0 auto;
+}
+
 /* SLIDER */
+
+.slider-gallery {
+  width: 560px;
+}
+
+.slider-information {
+  width: 560px;
+}
 
 .slider-title {
   font-family: 'Raleway', sans-serif;
@@ -132,6 +147,11 @@ body {
   font-size: 50px;
   line-height: 50px;
   color: #000000;
+}
+
+.slider-feature {
+  margin: 0;
+  padding: 0;
 }
 
 .slider-feature-metrics {
@@ -143,7 +163,23 @@ body {
   font-size: 16px;
 }
 
+.slider-pagination {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
 /* PRODUCT */
+
+.product-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.product-item {
+  width: 160px;
+}
 
 .product-name {
   font-family: 'Raleway', sans-serif;
@@ -157,6 +193,17 @@ body {
 
 .advantages {
   background-color: #f0f0f0;
+}
+
+.advantages-list {
+  width: 280px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.advantages-information {
+  width: 880px;
 }
 
 .advantages-information-name {
@@ -186,12 +233,22 @@ body {
 
 /* ABOUT */
 
+.about {
+  width: 520px;
+}
+
 .about-title {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 50px;
   line-height: 50px;
   color: #000000;
+}
+
+.about-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
 .about-name {
@@ -202,6 +259,10 @@ body {
 }
 
 /* CONTACTS */
+
+.contacts {
+  width: 532px;
+}
 
 .contacts-title {
   font-family: 'Raleway', sans-serif;
@@ -224,6 +285,12 @@ body {
   color: inherit;
 }
 
+.contacts-schedule {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
 /* SUBSCRIBE */
 
 .subscribe {
@@ -231,11 +298,24 @@ body {
 }
 
 .subscribe-title {
+  width: 348px;
   font-family: 'Raleway', sans-serif;;
   font-weight: 800;
   font-size: 50px;
   line-height: 50px;
   color: #000000;
+}
+
+.subscribe-text {
+  width: 560px;
+}
+
+.subscribe-form {
+  width: 560px;
+}
+
+.subscribe-free {
+  width: 160px;
 }
 
 /* FOOTER */
